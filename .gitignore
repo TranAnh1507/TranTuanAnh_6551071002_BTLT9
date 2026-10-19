@@ -1,0 +1,99 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build output
+# =========================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+Debug/
+Release/
+x64/
+x86/
+
+# =========================
+# .NET build files
+# =========================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+*.snupkg
+
+# Không ignore packages.config nếu có
+!packages.config
+
+# =========================
+# Visual Studio temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.userprefs
+
+# =========================
+# ReSharper / Rider
+# =========================
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Test / coverage
+# =========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# Publish output
+# =========================
+publish/
+PublishProfiles/
+
+# =========================
+# Runtime generated images
+# Project Cau3LTTQ
+# =========================
+bin/**/Images/
+
+# =========================
+# Local database files
+# nếu sau này dùng .mdf/.ldf
+# =========================
+*.mdf
+*.ldf
